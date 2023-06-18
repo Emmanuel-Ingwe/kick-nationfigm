@@ -21,9 +21,9 @@ const page = (props: Props) => {
                 <li>Kontakt</li>
             </ul>
         </div>
-        <div className="">
-        <Image width={32} height={41} src="logo.png" alt=''/>
-        <Image width={32} height={41} src="logo.png" alt=''/>
+        <div className="flex">
+        <Image width={32} height={41} src="/Vector-user.png" alt=''/>
+        <Image width={32} height={41} src="/Vector-cart.png" alt=''/>
         </div>
     </div>
   )
