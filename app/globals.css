@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --color-blue: 428DFF;
-  --background-start-rgb: F0EFEF;
+  --color-blue: rgba(66, 141, 255, 1);
+  --navColor: rgba(240, 239, 239, 1);
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -20,4 +20,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Input {
+	@apply outline-none rounded-lg px-1 py-4 border border-[--color-blue] text-black placeholder-black transition-all focus:border-red-900/70 focus:text-red-900/70 hover:border-red-900/70;
 }
