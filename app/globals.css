@@ -26,3 +26,7 @@ body {
 .Input {
 	@apply outline-none rounded-lg px-1 py-4 border border-[--color-blue] text-black placeholder-black transition-all focus:border-red-900/70 focus:text-red-900/70 hover:border-red-900/70;
 }
+
+.lSpace {
+  word-spacing: 5px;
+}
