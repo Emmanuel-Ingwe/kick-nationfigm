@@ -29,6 +29,6 @@ const page = (props: Props) => {
         </div>
     </div>
   )
-}
+};
 
 export default page
