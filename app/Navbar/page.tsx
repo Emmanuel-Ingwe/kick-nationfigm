@@ -12,7 +12,7 @@ const page = (props: Props) => {
         </div>
         {/* <Image src="logo.png" alt=''/> */}
         <div className="flex">
-            <ul className='flex uppercase space-x-14 text-[16px]'>
+            <ul className='flex uppercase space-x-14 text-[16px] font-semibold'>
                 <li className='text-[--color-blue]'>Forside</li>
                 <li>Services/Prise</li>
                 <li>portfolio</li>
@@ -21,8 +21,10 @@ const page = (props: Props) => {
                 <li>Kontakt</li>
             </ul>
         </div>
-        <div className="flex">
-        <Image width={32} height={41} src="/Vector-user.png" alt=''/>
+        <div className="flex pr-[22px]">
+            <div className="pr-[23px]">
+                <Image width={32} height={41} src="/Vector-user.png" alt=''/ >
+            </div>
         <Image width={32} height={41} src="/Vector-cart.png" alt=''/>
         </div>
     </div>
