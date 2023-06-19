@@ -17,7 +17,9 @@ const items: item[] = [
 const page = (props: Props) => {
   return (
     <div>
-   r
+        items.map((item: Item) {
+            
+        })
     </div>
   )
 }
