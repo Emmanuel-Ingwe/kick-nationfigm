@@ -17,7 +17,7 @@ const items: item[] = [
 const page = (props: Props) => {
   return (
     <div>
-
+   r
     </div>
   )
 }
