@@ -6,7 +6,7 @@ import Sales from "./Sales/page";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="container overflow-x-hidden">
       <Search />
       <Nav />
       <Hero />
