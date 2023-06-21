@@ -3,6 +3,7 @@ import Search from "./Searchbar/page";
 import Nav from "./Navbar/page"
 import Hero from "./Hero/page"
 import Sales from "./Sales/page";
+import Features from "./Features/page";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Sales />
+      <Features />
     </main>
   )
 }
