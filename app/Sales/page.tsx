@@ -12,8 +12,8 @@ type Item = {
 
 const items: Item[] = [
     {id:1, icon: "/tshit.png", name: "Premium Fodboldtrøje", description: "Shop i blandt vores udvalg af Premium fodboldtrøjer, her kan du finde yderst sjældne og eftertragtede fodboldtrøjer"},
-    {id:2, icon: "/boxes.png", name: "Mystery Boxes", description: "Shop i blandt vores udvalg af Premium fodboldtrøjer, her kan du finde yderst sjældne og eftertragtede fodboldtrøjer"},
-    {id:3, icon: "/portrait.png", name: "Plakatar", description: "Shop i blandt vores udvalg af Premium fodboldtrøjer, her kan du finde yderst sjældne og eftertragtede fodboldtrøjer"},
+    {id:2, icon: "/boxes.png", name: "Mystery Boxes", description: "Vælg din mystery box, størrelsen og udeluk op til 10 hold/klubber/spillere du ikke ønsker. Vælg f.eks. mellem klubber, premium, vintage, of flere…"},
+    {id:3, icon: "/portrait.png", name: "Plakatar", description: "Vores plakater er designet, tegnet og produceret af os selv. De har et helt unikt touch og der findes noget for en hver smag"},
 ]
 
 const page = (props: Props) => {
@@ -24,8 +24,8 @@ const page = (props: Props) => {
                 <div className="">
                      <Image width={129} height={150} src={item.icon} alt=''/ >
                 </div>
-                 <div className="">
-                     <h3 className='font-semibold text-[24px]'>{item.name}</h3>
+                 <div className="pl-[31px] pr-[20px]">
+                     <h3 className='font-semibold text-[24px] mb-[32px]'>{item.name}</h3>
                      <p className='font-normal text-[16px]'>{item.description}</p>
                  </div>
             </div>
