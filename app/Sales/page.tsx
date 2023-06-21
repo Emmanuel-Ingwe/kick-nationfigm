@@ -18,10 +18,10 @@ const items: Item[] = [
 
 const page = (props: Props) => {
   return (
-    <div className='container flex mt-[46px] w-[1320px] justify-between m-[auto]'>
+    <div className='container flex mt-[46px] w-[1320px] justify-around m-[auto]'>
             {items.map((item: Item) => (
-            <div key={item.id} className="border border-[--color-blue] justify-center items-center">
-                <Image width={32} height={41} src={item.icon} alt=''/ >
+            <div key={item.id} className="border border-[--color-blue] justify-center items-center w-[418px] h-[316px] mr-[28]">
+                <Image width={129} height={160} src={item.icon} alt=''/ >
                  <div className="">
                      <h3>{item.name}</h3>
                      <p>{item.description}</p>
