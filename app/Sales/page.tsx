@@ -24,8 +24,8 @@ const page = (props: Props) => {
                 <div className="">
                      <Image width={129} height={150} src={item.icon} alt=''/ >
                 </div>
-                 <div className="pl-[31px] pr-[20px]">
-                     <h3 className='font-semibold text-[24px] mb-[32px]'>{item.name}</h3>
+                 <div className="pl-[31px] pr-[30px]">
+                     <h3 className='font-semibold text-[24px] mb-[18px]'>{item.name}</h3>
                      <p className='font-normal text-[16px]'>{item.description}</p>
                  </div>
             </div>
