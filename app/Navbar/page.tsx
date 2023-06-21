@@ -6,7 +6,7 @@ type Props = {
 
 const page = (props: Props) => {
   return (
-    <div className='flex w-[1340px] h-[119px] justify-between bg-[--navColor] ml-[100px] mr-[100px] mt-[9px] items-center'>
+    <div className='flex w-[1340px] h-[119px] justify-between bg-[--navColor] m-[auto] mt-[9px] items-center'>
         <div className="pl-[13px]">
             <Image width={391} height={44} src="/logo.png" alt=''/>
         </div>

@@ -6,7 +6,7 @@ type Props = {
 
 const page = (props: Props) => {
   return (
-    <div className='container sw-screen flex justify-between flex-col'>
+    <div className='container w-screen flex justify-between flex-col'>
         <div className="flex justify-end">
         <input type="text" placeholder='Search...' className='w-[395px] h-[47.43px] border border-[--color-blue] rounded-3xl pl-6 placeholder-black outline-none mt-8 mb-4 mr-[100px]' />
         {/* <img className='relate h-[20px]' src="Vector-search.png" alt="" /> */}
