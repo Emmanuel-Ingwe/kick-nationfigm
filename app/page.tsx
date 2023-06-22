@@ -4,6 +4,8 @@ import Nav from "./Navbar/page"
 import Hero from "./Hero/page"
 import Sales from "./Sales/page";
 import Features from "./Features/page";
+import Footer from "./Footer/page";
+
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       <Hero />
       <Sales />
       <Features />
+      <Footer />
     </main>
   )
 }
