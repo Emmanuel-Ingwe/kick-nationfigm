@@ -18,7 +18,7 @@ const items: Item[] = [
 
 const page = (props: Props) => {
   return (
-    <div className='container flex mt-[46px] w-[1320px] justify-around m-[auto] mb-[46px] sm:flex-wrap'>
+    <div className='container flex mt-[46px] w-[1320px] justify-around m-[auto] mb-[129px] sm:flex-wrap'>
             {items.map((item: Item) => (
             <div key={item.id} className="flex flex-col border border-[--color-blue] items-center text-cente w-[418px] h-[316px] mr-[28]">
                 <div className="">
